@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form input Types</title>
+  </head>
+  <body>
+    <!-- 1.text
+    2.password
+    3.submit
+    4.reset
+    5.radio
+    6.checkbox
+    7.color
+    8.date
+    9.datetime-local
+    10.email
+    11.file
+    12.month
+    13.number
+    14.range
+    15.searchbox
+    16.telephone number
+    17.time
+    18.url
+    19.week -->
+    <h1>Input types in form</h1>
+    <hr />
+    <br />
+    <form
+      name="myForm"
+      method="post"
+      action="http://www.facebook.com"
+      target="_blank"
+      autocomplete="on"
+      novalidate
+    >
+      <label for="1">Name: </label>
+      <input type="text" id="1" value="Shan" autofocus /> <br />
+      <br />
+      <label>password: </label>
+      <input type="password" disabled /><br />
+      <label>Gender: </label>
+      <input type="radio" name="gender" />
+      <label>Male: </label>
+      <input type="radio" name="gender" />
+      <label>Female: </label>
+      <br /><br />
+      <label>Hobbies: </label>
+      <input type="checkbox" />
+      <label>Reading novels</label>
+      <input type="checkbox" />
+      <label>TV</label>
+      <input type="checkbox" />
+      <label>Gaming</label>
+      <br /><br />
+      <label>Select favourite color: </label>
+      <input type="color" />
+      <br /><br />
+      <label>DOB: </label>
+      <input type="date" />
+      <br /><br />
+      <label>Date with time: </label>
+      <input type="datetime-local" />
+      <br /><br />
+      <label>Enter the current week: </label>
+      <input type="week" />
+      <br /><br />
+      <label>Month: </label>
+      <input type="month" />
+      <br /><br />
+      <label>Time: </label>
+      <input type="time" />
+      <br /><br />
+      <label>Email: </label>
+      <input type="email" placeholder="abc@hotmail.com" required /><br /><br />
+      <label>Upload resume: </label>
+      <input type="file" /> <br /><br />
+      <label>Enter phone number: </label>
+      <input type="tel" /> <br /><br />
+      <label>Enter your website: </label>
+      <input type="url" readonly /> <br /><br />
+      <label>Search: </label>
+      <input type="search" /><br /><br />
+      <label>Enter the marks: </label>
+      <input type="number" min="0" max="100" /><br /><br />
+      <label>Rate yourself in html(0 to 5): </label>
+      <input type="range" min="0" max="5" /><br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

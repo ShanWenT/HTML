@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table in html</title>
+  </head>
+  <body>
+    <table border="1" width="800" height="500">
+      <caption align="bottom" style="text-align: right">
+        Number Table
+      </caption>
+      <tr>
+        <th colspan="4" style="background-color: green">Profile</th>
+      </tr>
+
+      <tr>
+        <td colspan="1" rowspan="2">
+          <img
+            src="/HTML/images/anonymous.jpg"
+            alt="unable to load image"
+            width="80px"
+            height="80px"
+          />
+        </td>
+        <td colspan="3" rowspan="2">
+          Hello my name is shan wen, in my previous job i worked as a software
+          engineer at an automation company. Due to circumstances, i decided to
+          switch field to focus on modern programming language such as java.
+        </td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <th colspan="4" style="background-color: green">Homepage</th>
+      </tr>
+
+      <tr>
+        <td colspan="1" rowspan="2">
+          <a href="myProfile2.html" target="mainframe">My_Profile</a>
+          <br />
+          <a href="qualification.html" target="mainframe">Qualification</a>
+          <br />
+          <a href="workExperience.html" target="mainframe">Work_Experience</a>
+          <br />
+          <a href="accomplishment.html" target="mainframe">Accomplishment</a>
+          <br />
+          <a href="personalinfo.html" target="mainframe">Personal_Info</a>
+        </td>
+        <td colspan="3" rowspan="2">
+          <iframe
+            src="myProfile2.html"
+            name="mainframe"
+            title="frame to display information"
+          ></iframe>
+        </td>
+      </tr>
+      <tr></tr>
+
+      <tr>
+        <th colspan="4" style="background-color: green">footer</th>
+      </tr>
+    </table>
+  </body>
+</html>
